@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>We Concept Studio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <!-- Header -->
   <section id="header">
-    <div class="header container">
+    <div class="header container" style="width: 100%;">
       <div class="nav-bar">
         <div class="brand">
-          <a href="#hero">
+          <a href="#projects">
             <h1><span>W</span>e<span>C</span>oncept<span>S</span>tudio<span></span></h1>
           </a>
         </div>
@@ -25,9 +28,9 @@
           <ul>
             <li><a href="#hero" data-after="Home">Trang chủ</a></li>
             <!-- <li><a href="#services" data-after="Service">Dịch vụ</a></li> -->
-            <li><a href="#projects" data-after="Projects">Dự án</a></li>
-            <li><a href="#about" data-after="About">
-              - liên hệ</a></li>
+            <li><a href="#projectss" data-after="Projects">Dự án</a></li>
+            <li><a href="#contact" data-after="About">
+                Liên hệ</a></li>
             <!-- <li><a href="#contact" data-after="Contact">Liên hệ</a></li> -->
           </ul>
         </div>
@@ -42,72 +45,178 @@
     <div class="hero ">
       <div>
         <h1>Welcome , <span></span></h1>
-        <h1>to  <span></span></h1>
+        <h1>to <span></span></h1>
         <h1 id="textName">WE CONCEPT STUDIO <span></span></h1>
-        <a href="#projects" type="button" class="cta">Công Trình Đã Thực Hiện </a>
+        <a href="#projectss" type="button" class="cta">Công Trình Đã Thực Hiện </a>
       </div>
     </div>
   </section>
   <!-- End Hero Section  -->
 
-  <!-- Service Section -->
-  <!-- <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Dịch vụ</h1>
-        <h3>Chúng tôi thiết kế: </h3>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- End Service Section -->
+
+
 
   <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container-fluid ">
-      <div class="projects-header" >
-        <h1 class="section-title">GIỚI THIỆU</h1>
-        <p style="text-align: center; font-size: 20px; margin-bottom: 40px;" style="color: black; font-weight: 700px"> Chúng tôi chuyên thiết kế và xây dựng các công trình dân dụng như: </p>
-        <p style="color: black; font-weight: 700px">- Nhà ở // Nhà vườn // Căn hộ chung cư // Biệt thự </p>
-        <p style="color: black; font-weight: 700px">- Nhà hàng // Tiệm cafe // Shop thời trang // Show room </p>
-        <p style="color: black; font-weight: 700px">- Mô hình nghỉ dưỡng Homestay // Mô hình shop kinh doanh và các hạng mục công trình dân dụng phổ biến khác...v..v..</p>
+  <section id="projects" class="backgroundAbout">
+    <div class="projects container-fluid">
+      <div class="projects-header">
+        <h1 class="section-title" style="align-items: center;">GIỚI THIỆU</h1>
+
+        <div class="row">
+          <section id="about">
+            <div class="about container">
+              <div class="col-left">
+                <div class="about-img">
+                  <img src="./img/3333.jpeg" alt="img">
+                </div>
+              </div>
+              <div class="col-right">
+                <p style="font-size: 20px; margin-bottom: 40px; color: black; font-weight: bold;">
+                  Chúng tôi chuyên thiết kế và xây dựng các công trình dân dụng như: </p>
+                <p style="color: black; font-weight: bold; ">- Nhà ở // Nhà vườn // Căn hộ chung cư //
+                  Biệt
+                  thự </p>
+                <p style="color: black; font-weight: 700; ">- Nhà hàng // Tiệm cafe // Shop thời trang //
+                  Show room </p>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="all-projects">
-        <div class="project-item">
+
+      <div id="projectss">
+        <div class="container projectInDes">
+          <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel2" data-slide-to="1"></li>
+              <li data-target="#myCarousel2" data-slide-to="2"></li>
+              <li data-target="#myCarousel2" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./img/1111.jpeg" alt="" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate
+            voluptatum impedit unde
+            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+        </div>
+
+        <div class="container projectInDes">
+          <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel3" data-slide-to="1"></li>
+              <li data-target="#myCarousel3" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./img/1111.jpeg" alt="" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate
+            voluptatum impedit unde
+            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+        </div>
+        <div class="container projectInDes">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./img/1111.jpeg" alt="" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="./img/1111.jpeg" style="width:100%;">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate
+            voluptatum impedit unde
+            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+        </div>
+      </div>
+
+
+
+      <div class="all-projects " id="abc">
+        <div class="project-item ">
           <div class="project-info ">
             <h1>Nhà phố Phan Chu Trinh</h1>
             <h2>Địa điểm: Tp. Buôn Ma Thuột, Daklak</h2>
-            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p> -->
           </div>
           <div class="project-img">
-            <!-- <img src="./img/img-1.png" alt="img"> -->
             <h1>Project 2</h1>
             <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
@@ -168,36 +277,20 @@
   </section>
   <!-- End Projects Section -->
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./img/3333.jpeg" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">Thông tin liên hệ </h1>
-<!--         <p>Chúng tôi thiết kế và thi công hoàn thiện trọn gói...</p> -->
-        <!-- <a href="#" class="cta">Download Resume</a> -->
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
 
   <!-- Contact Section -->
   <section id="contact">
     <div class="contact container">
-<!--       <div>
+      <div>
         <h1 class="section-title">liên hệ</h1>
-      </div> -->
-      <div class="contact-items">
+      </div>
+      <div class="contact-items" style="margin-top: 50px;">
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
           <div class="contact-info">
             <h1>Phone</h1>
             <h2>0979 952 847</h2>
-<!--             <h2>+1 234 123 1234</h2> -->
+            <!--             <h2>+1 234 123 1234</h2> -->
           </div>
         </div>
         <div class="contact-item">
@@ -230,10 +323,12 @@
       <h2>[ Đặt chất lượng lên hàng đầu ]</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://www.facebook.com/jonah.hex.90813"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+          <a href="https://www.facebook.com/jonah.hex.90813"><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
         </div>
         <div class="social-item">
-          <a href="https://www.instagram.com/we.design.studio/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+          <a href="https://www.instagram.com/we.design.studio/"><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
         </div>
         <!-- <div class="social-item">
           <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
