@@ -233,6 +233,9 @@ p {
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
 }
+##textName {
+	font-size: 3rem;
+}
 #hero h1:nth-child(1) {
 	animation-delay: 1s;
 }
