@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 }
 .container {
-	min-height: 100vh;
+	min-height: 90vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -40,12 +40,17 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
-	/* text-decoration: underline; */
+	border-bottom: 2px solid red;
+	display: inline-block;
+	font-weight: 400;
 }
 .section-title span {
 	color: crimson;
 }
-
+#borderBottom {
+    top: 60%;
+        bottom: 0;
+}
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
@@ -123,6 +128,9 @@ p {
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
+}
+.projectInDes {
+	display: none;
 }
 #header .nav-list ul a::after {
 	content: attr(data-after);
@@ -233,9 +241,7 @@ p {
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
 }
-##textName {
-	font-size: 3rem;
-}
+
 #hero h1:nth-child(1) {
 	animation-delay: 1s;
 }
@@ -337,11 +343,14 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
-	margin-bottom: 50px;
+/* #projects .projects-header h1 {
+	
+} */
+#projects .projects-header  {
+	text-align: center;
 }
 #projects .all-projects {
-	display: flex;
+	/* display: flex; */
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
@@ -537,6 +546,7 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
+
 /* End Footer */
 
 /* Keyframes */
@@ -573,7 +583,7 @@ p {
 }
 /* End Keyframes */
 
-/* Media Query For Tablet */
+/*/*----------------------------------------------------------------------------- Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
@@ -635,7 +645,7 @@ p {
 	}
 	#about .col-right {
 		text-align: left;
-		padding: 30px;
+		padding: 0 0 0 50px;
 	}
 	#about .col-right h1 {
 		text-align: left;
@@ -655,7 +665,7 @@ p {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-		margin: 0;
+		margin: 50px 0 0 0 ;
 	}
 	#contact .contact-item {
 		width: 30%;
@@ -674,11 +684,20 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+	/* .backgroundAbout {
+		background-color: rgb(227, 228, 232);
+	} */
+	.projectInDes {
+		display: block;
+	}
+	.all-projects {
+		display: none;
+	}
 	/* End contact  */
 }
 /* End Media Query For Tablet */
 
-/* Media Query For Desktop */
+/*/*----------------------------------------------------------------------------- Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
@@ -706,8 +725,19 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+	.projectInDes {
+		display: block;
+	}
+	.all-projects {
+		display: none;
+	}
+	#abc {
+		display: none;
+	}
+	#contact .contact-items {
+		margin: 50px 0 0 0 ;
+	}
 }
-/* End  Media Query For Desktop */
 
 
 .h3 {
