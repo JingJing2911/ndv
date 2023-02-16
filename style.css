@@ -308,6 +308,9 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
+.duAnDes {
+display: none
+}
 #services .service-item::after {
 	content: '';
 	position: absolute;
@@ -593,6 +596,9 @@ p {
 	.introMo {
 		display: none;
 	}
+	..duAnDes {
+display: block
+}
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
