@@ -448,6 +448,9 @@ p {
 	padding: 10px 20px;
 	font-size: 2rem;
 }
+.duAnDes {
+	display: none;
+	}
 #about .col-left .about-img {
 	height: 70%;
 	width: 100%;
@@ -595,9 +598,11 @@ p {
 		display: block;
 	}
 	.duAnDes {
-		display: block;
-		padding: 80px; 
+		display: inline-block;
+		margin: 90px 0 80px 0;
 		text-align: center;
+		justify-content: center;
+		border-bottom: 3px solid red;
 	}
 	.introMo {
 		display: none;
@@ -754,8 +759,6 @@ p {
 	#contact .contact-items {
 		margin: 50px 0 0 0 ;
 	}
-
-
 }
 
 
@@ -766,9 +769,7 @@ p {
 .modal {
 	margin-top: 250px;
 }
-.duAnDes {
-display: none;
-}
+
 .duAnMo {
 	display: block;
 	margin-top: 200px;
