@@ -720,11 +720,6 @@ p {
 	#header .hamburger {
 		display: none;
 	}
-	.duAnDes {
-		display: block;
-		padding: 80px; 
-		text-align: center;
-	}
 	#header .nav-list ul {
 		position: initial;
 		display: block;
