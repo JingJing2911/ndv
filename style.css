@@ -32,7 +32,8 @@ p {
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 }
-.section-title {
+.section-
+{
 	font-size: 4rem;
 	font-weight: 300;
 	color: black;
@@ -596,7 +597,7 @@ display: none
 	.introMo {
 		display: none;
 	}
-	..duAnDes {
+	.duAnDes {
 display: block
 }
 	.cta {
